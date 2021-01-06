@@ -184,7 +184,7 @@ export async function httpConnectionRequest(
 export async function udpConnectionRequest(
   address: string,
   authExp: Expression,
-  sourcePort = 0,
+  sourcePort = 3478,
   _debug: boolean,
   deviceId: string
 ): Promise<void> {

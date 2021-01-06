@@ -153,7 +153,7 @@ export async function connectionRequest(
     udpProm = udpConnectionRequest(
       udpConnectionRequestAddress,
       authExp,
-      UDP_CONNECTION_REQUEST_PORT,
+      3478,
       debug,
       deviceId
     );
