@@ -106,6 +106,7 @@ export async function connectionRequest(
 
   const snapshot = await getCurrentSnapshot();
   const now = Date.now();
+/*
   const UDP_CONNECTION_REQUEST_PORT = +getConfig(
     snapshot,
     "cwmp.udpConnectionRequestPort",
@@ -113,6 +114,8 @@ export async function connectionRequest(
     now,
     evalCallback
   );
+*/
+  const UDP_CONNECTION_REQUEST_PORT = 3478;
   const CONNECTION_REQUEST_TIMEOUT = +getConfig(
     snapshot,
     "cwmp.connectionRequestTimeout",
